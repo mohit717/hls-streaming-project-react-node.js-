@@ -54,7 +54,7 @@ Generates a standard `.m3u8` playlist from an MP4 video.
 ### 2️⃣ Create Multi-Resolution Playlist
 Generates an adaptive bitrate HLS playlist with multiple resolutions.
 ```http
-  multi-res-exec/:videoName
+  GET multi-res-exec/:videoName
 ```
 
 ---
